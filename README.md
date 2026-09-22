@@ -1,2 +1,4 @@
-# Hello World
-Primeiro repositório versionado
+# Hello World!
+Primeiro repositorio versionado
+
+Repositorio criado durante aula do Curso em Video!
