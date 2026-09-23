@@ -3,4 +3,4 @@ Primeiro repositorio versionado
 
 Repositorio criado durante aula do Curso em Video!
 
-Linha incluída no site do github.
+Linha incluida no site do github.
