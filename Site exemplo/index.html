@@ -6,9 +6,37 @@
     <title>Meu primeiro site em rerpositório</title>
 </head>
 <body>
-    <h1>Olá, Mundo!</h1>
-    <hr>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat ipsam laborum autem nisi praesentium, corporis eum modi ducimus natus illo, deserunt, amet maiores? Amet recusandae minima, debitis nesciunt sunt dolorum.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor consequatur perferendis possimus quaerat, a provident quas ad quo incidunt quod, natus quidem qui ullam sit dicta soluta officiis esse repudiandae.</p>
+    <script>
+ const getMessages = (conversationId) => {
+      for (let conversation of conversations) {
+        if ( conversation.id === conversationId) {
+            return conversation.messages;
+        }
+    }
+    return []
+
+    const plotarMensagens = (fn) => {
+        const conversationId = "chat_1"
+        const messages = fn(conversationId)
+
+        for (let message of messages) {
+            console.log (message.userId)
+            console.log (message.conteudo)
+            console.log (/n)
+
+        }
+    }
+plotarMensagens(getMessages)
+
+const conversations = [
+{
+    id: "chat_1",
+    
+}
+
+]
+
+    </script>
+   
 </body>
 </html>
